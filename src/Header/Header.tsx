@@ -24,13 +24,13 @@ const Header: React.FC<{}> = () => {
                 </div>
             </div>
             
-            <div className='header-bg'>
+            {/* <div className='header-bg'>
                 <img 
                     className='header-bg-image' 
                     src='/images/pineapple.png' 
                     alt='notebook with laptop pic' 
                 />
-            </div>
+            </div> */}
         </header>
     );
 };
