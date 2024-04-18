@@ -1,0 +1,62 @@
+.header {
+    width: 100%;
+    
+    &-nav {
+        display: flex;
+        justify-content: space-between;
+        padding: 20px 50px;
+        background: transparent;
+        position: absolute;
+        width: calc(100% - 100px);
+    }
+    
+    &0nav:hover {
+        color: var(--coral);
+    }
+    
+    &-bg {
+        width: 100%;
+        
+        &-image {
+            width: 100%;
+            display: block;
+        }
+    }
+    
+    .profile {
+        &-pic {
+            width: 100px;
+            border-radius: 25px;
+        }
+        
+        &-wrapper {
+            display: flex;
+            align-items: center;
+            text-decoration: none;
+        }
+        
+        &-name {
+            color: var(--teal);
+        }
+        
+        &-name:hover {
+            color: var(--coral);
+        }
+    }
+    
+    .nav-item {
+        color: var(--teal);
+        
+        :hover{
+            color: var(--coral);
+            text-decoration: underline;
+        }
+        
+        &-wrapper {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+    }
+}
+

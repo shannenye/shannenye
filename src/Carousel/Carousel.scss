@@ -1,0 +1,17 @@
+.carousel {
+    width: 100%;
+    
+    &-cell {
+        height: 550px;
+        width: 100%;
+        margin-right: 10px;
+        counter-increment: gallery-cell;
+    }
+    
+    &-image {
+        height: 100%;
+        width: 100%;
+        display: block;  
+    }
+}
+
