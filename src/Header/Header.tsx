@@ -23,14 +23,6 @@ const Header: React.FC<{}> = () => {
                     </Link>
                 </div>
             </div>
-            
-            {/* <div className='header-bg'>
-                <img 
-                    className='header-bg-image' 
-                    src='/images/pineapple.png' 
-                    alt='notebook with laptop pic' 
-                />
-            </div> */}
         </header>
     );
 };

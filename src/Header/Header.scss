@@ -8,20 +8,11 @@
         background: transparent;
         position: absolute;
         width: calc(100% - 100px);
-    }
-    
-    &0nav:hover {
-        color: var(--coral);
-    }
-    
-    // &-bg {
-    //     width: 100%;
         
-    //     &-image {
-    //         width: 100%;
-    //         display: block;
-    //     }
-    // }
+        &:hover {
+            color: var(--coral);
+        }
+    }
     
     .profile {
         &-pic {
@@ -37,17 +28,17 @@
         
         &-name {
             color: var(--teal);
-        }
-        
-        &-name:hover {
-            color: var(--coral);
+            
+            &:hover {
+                color: var(--coral);
+            }
         }
     }
     
     .nav-item {
         color: var(--teal);
         
-        :hover{
+        &:hover{
             color: var(--coral);
             text-decoration: underline;
         }

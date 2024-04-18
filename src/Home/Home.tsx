@@ -6,7 +6,7 @@ import './Home.scss';
 const Home: React.FC<{}> = () => {
     return (
         <div className='home'>
-          <div className='home-bg'>
+            <div className='home-bg'>
                 <img 
                     className='home-bg-image' 
                     src='/images/pineapple.png' 

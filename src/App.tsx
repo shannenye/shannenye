@@ -3,6 +3,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import Header from './Header/Header';
 import Home from './Home/Home';
 import './App.scss';
+import Footer from './Footer/Footer';
 
 const App: React.FC<{}> = () => {
     return (
@@ -14,6 +15,7 @@ const App: React.FC<{}> = () => {
                 <Route path='/recipes' />
                 <Route path='/gallery' />
             </Routes>
+            <Footer />
         </BrowserRouter>
     );
 }
