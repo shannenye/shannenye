@@ -1,4 +1,7 @@
 .home {
+    display: flex;
+    flex-direction: column;
+    
     &-bg {
         width: 100%;
         
@@ -6,5 +9,9 @@
             width: 100%;
             display: block;
         }
+    }
+    
+    &-content {
+        position: relative;
     }
 }

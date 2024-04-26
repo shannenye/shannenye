@@ -1,6 +1,7 @@
 import React from 'react';
 import EmailBlock from '../EmailBlock/EmailBlock';
 import Recipes from '../Recipes/Recipes';
+import Carousel from '../Carousel/Carousel';
 import './Home.scss';
 
 const Home: React.FC<{}> = () => {
@@ -14,6 +15,7 @@ const Home: React.FC<{}> = () => {
                 />
             </div>
             <EmailBlock />
+            <Carousel />
             <Recipes />
         </div>
     );

@@ -10,5 +10,8 @@ Dynamic Software Engineer with over 5 years of experience specializing in fronte
 - Typescript
 - HTML5
 - CSS
-- Flickity
 - Fontawesome
+
+## Technoogies to come:
+- AWS
+- Web3
