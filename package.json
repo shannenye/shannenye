@@ -4,8 +4,8 @@
   "private": true,
   "homepage": "https://shannenye.github.io/",
   "engines" : { 
-    "npm" : ">=9.0.0",
-    "node" : ">=20.0.0"
+    "npm" : "9.8.0",
+    "node" : "20.5.1"
   },
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
