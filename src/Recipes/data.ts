@@ -14,7 +14,7 @@ export interface RecipeData extends RecipeBlockData {
 
 export const recipeData: RecipeData[] = [
     {
-        id: 'r1',
+        id: 'immunity-bootser',
         name: 'Immunity Booster',
         shortDesc: `My homemade recipe to boost your immune system. Make ahead and store it in the fridge! My husband and I usually take a shotglass of this mixture every morning to start the day.`,
         summary: '',
@@ -24,7 +24,7 @@ export const recipeData: RecipeData[] = [
         instructions: ''
     },
     {
-        id: 'r2',
+        id: 'beef-radish-soup',
         name: 'Beef and Radish Soup',
         shortDesc: `This refreshing soup is one of the easiest things to make and you only need a few ingredients. It's perfect for a day that you want to have some soup but don't want to spend more than 30 minutes on.`,
         summary: '',
@@ -34,7 +34,7 @@ export const recipeData: RecipeData[] = [
         instructions: ''
     },
     {
-        id: 'r3',
+        id: 'congee',
         name: 'Congee',
         shortDesc: `This easy recipe is great for those lazy days or when someone is sick and it only takes about 20 minutes! It's very versatile so I usually throw in some chicken bouillon to zazz it up.`,
         summary: '',

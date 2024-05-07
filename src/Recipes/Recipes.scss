@@ -1,36 +1,23 @@
 .recipes {
     text-align: center;
-    // height: 100vh;
+    background: var(--floral-white);
   
     &-title {
         color: var(--coral);
     }
     
     &-wrapper {
-        margin-top: 30px
+        margin-top: 30px;
     }
     
     &-data-wrapper {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
-        margin-bottom: 40px;
     }
     
-    &-view-all-btn {
-        border: 25px;
-        color: var(--white);
+    &-btn {
         background: var(--coral);
-        text-decoration: none;
-        padding: 20px 60px;
-        border-radius: 10px;
-        font-weight: 700;
-        display: inline-block;
-        
-        &:hover {
-            opacity: 0.9;
-        }
+        margin-top: 40px;
     }
-    
-    
 }

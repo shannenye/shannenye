@@ -1,0 +1,16 @@
+.about {
+    text-align: center;
+    background-color: var(--floral-white);
+    
+    &-title {
+        color: var(--coral);
+    }
+    
+    &-content {
+        width: 80%;
+        margin: 0 auto;
+        letter-spacing: 0.5px;
+        line-height: 25px;
+        font-size: 18px;
+    }
+}

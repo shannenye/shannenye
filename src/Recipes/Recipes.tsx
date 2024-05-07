@@ -6,7 +6,7 @@ import { Link } from 'react-router-dom';
 
 const Recipes: React.FC<{}> = () => {
     return (
-        <div className='recipes top-gutter'>
+        <div className='recipes tb-gutter'>
             <h2 className='recipes-title'>Recipes</h2>
             <h3>Try some of my favorite recipes&#33;</h3>
             <div className='recipes-wrapper'>
@@ -20,7 +20,7 @@ const Recipes: React.FC<{}> = () => {
                         ))
                     }
                 </div>
-                <Link to='/recipes' className='recipes-view-all-btn'>
+                <Link to='/recipes' className='btn recipes-btn'>
                     View All Recipes
                 </Link>
             </div>

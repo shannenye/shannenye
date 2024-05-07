@@ -1,0 +1,38 @@
+.portfolio-block {
+    text-align: center;
+    
+    &-title {
+        color: var(--teal);
+    }
+    
+    &-wrapper {
+        margin-top: 30px;
+    }
+    
+    &-cell {
+        width: 200px;
+        height: 200px;
+        background: var(--teal);
+        border-radius: 25gpx;
+        margin-right: 20px;
+        
+        &-dot-wrapper {
+            display: flex;
+            justify-content: center;
+            flex-direction: column;
+        }
+        
+        &-wrapper {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 40px;
+        }
+    }
+    
+    &-btn {
+        background: var(--teal);
+        margin-top: 40px;
+    }
+    
+    
+}
