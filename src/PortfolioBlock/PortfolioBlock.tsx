@@ -2,7 +2,7 @@ import React from 'react';
 import './PortfolioBlock.scss';
 import { Link } from 'react-router-dom';
 
-const Carousel: React.FC<{}> = () => {
+const PortfolioBlock: React.FC<{}> = () => {
     return (
         <div className='portfolio-block tb-gutter'>
             <h2 className='portfolio-block-title'>Portfolio</h2>
@@ -32,5 +32,5 @@ const Carousel: React.FC<{}> = () => {
     );
 };
 
-export default Carousel;
+export default PortfolioBlock;
 

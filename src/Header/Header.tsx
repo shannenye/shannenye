@@ -23,6 +23,9 @@ const Header: React.FC<{}> = () => {
                     </Link>
                 </div>
             </div>
+            <button className='mobile'>
+                <i className='fa fa-bars'></i>
+            </button>
         </header>
     );
 };

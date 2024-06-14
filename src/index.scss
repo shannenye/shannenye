@@ -63,6 +63,10 @@ h6 {
 
 .tb-gutter {
     padding: 60px 0;
+    
+    @media only screen and (max-width: 725px) {
+        padding: 30px 20px;
+    }
 }
 
 .btn {

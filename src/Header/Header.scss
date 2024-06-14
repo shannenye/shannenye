@@ -12,6 +12,20 @@
         &:hover {
             color: var(--coral);
         }
+        
+    }
+    
+    .mobile {
+        display: none;
+        
+        @media only screen and (max-width: 725px) {
+            display: block;   
+            display: block;
+            position: absolute;
+            right: 15px;
+            top: 30px;
+            font-size: 20px; 
+        }
     }
     
     .profile {
@@ -28,6 +42,12 @@
         
         &-name {
             color: var(--teal);
+            white-space: nowrap;
+            
+            @media only screen and (max-width: 725px) {
+                text-shadow: 0 0 10px white, 0 0 5px white;
+            }
+            
             
             &:hover {
                 color: var(--coral);
@@ -47,7 +67,10 @@
             display: flex;
             justify-content: space-between;
             align-items: center;
+            
+            @media only screen and (max-width: 725px) {
+                display: none;
+            }
         }
     }
 }
-
